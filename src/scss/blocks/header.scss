@@ -1,5 +1,16 @@
 .header{
+	margin: 0 auto;
+	box-sizing: border-box;
+	background-image: url('../../img/header-back320.jpg');
+	background-color: #1c1531;
 	
+
+	
+	
+
+
+
+	&__inner{
 	.hidden-menu {
 	  display: block;
 	  position: fixed;
@@ -11,7 +22,7 @@
 	  height: 200px;
 	  background-color: #1c1531;
 	  
-	  top: 0;
+	  top: 30;
 	  left: -150px;
 	  transition: left .2s;
 	  z-index: 2;
@@ -27,12 +38,12 @@
 
 	.btn-menu {
 	  border-radius: 90%;
-	  color: #fff;
+	  border: 2px solid #57596c;
+	  color: #57596c;
 	  background-color: #1c1531;
 	  padding: 5px;
 	  position: fixed;
-	  top: 5px;
-	  left: 5px;
+	 
 	  cursor: pointer;
 	  transition: left .23s;
 	  z-index: 3;
@@ -44,7 +55,7 @@
 	.btn-menu span {
 	  display: block;
 	  height: 2px;
-	  background-color: #fff;
+	  background-color: #57596c;
 	  margin: 8px 0 0;
 	  transition: all .1s linear .23s;
 	  position: relative;
@@ -55,9 +66,10 @@
 	}
 
 	.hidden-menu-ticker:checked ~ .btn-menu {
-	  left: 160px;
+	  left: 5px;
 	}
 	.hidden-menu-ticker:checked ~ .hidden-menu {
+	  top: 30px;
 	  left: 0;
 	}
 	.hidden-menu-ticker:checked ~ .btn-menu span.first {
@@ -72,10 +84,30 @@
 	  top: -10px;
 	}
 
+	.main-title{
+		color: #e6fffd;
+		font-size: 30px;
+	}
+
+	.side-bar{
+		a.social{
+		.social--vk{
+			background: url('../img/sprite-09082446549803158.png');
+			width: 25px;
+			height: 15px;
+			background-position: 0 -136px ;
+			 
+			
+		}
+	}
+
+		&__link{
+			text-decoration: none;
+			color: #e6fffd;
+		}
+	}
 
 
-	&__inner{
-	
 	}
 
 }
