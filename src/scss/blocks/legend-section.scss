@@ -1,4 +1,26 @@
 .legend-section{
-	display: flex;
-	flex-wrap:wrap;
+
+	&__inner{
+		margin-left: 2%;
+		width: 94%;
+		display: flex;
+		
+
+
+		.legend-section__info{
+			.legend-slider{
+				&__item{
+					
+				}
+				&__text{
+
+				}
+			}
+		}
+	.legend-section__img{
+		.legend-section__photo{
+
+		}
+	}
+	}
 }

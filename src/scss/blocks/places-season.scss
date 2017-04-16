@@ -1,3 +1,93 @@
 .places-season{
+	&__inner{
+		margin-left: 2%;
+		width: 94%;
+		display: flex;
+		height: 534px;
+		
+		.places-season__map{
+			background-image: url('../../img/places-season-map.jpg');
+			background-repeat: round;
+		}
+
+		.places-season__map{
+			flex-basis: 58.33%;
+		}
+		
+		
+
+		.places-season__info{
+			flex-basis: 41.66%;
+			
+			.places-season__title{
+				font-size: 30px;
+				font-weight: light;
+				color: #201b38;
+				padding-left: 2%;
+
+			}
+
+			.places-season__list{
+				display: flex;
+				justify-content: space-between;
+				list-style: none;
+				font-size: 16;
+				color: #201b38;
+				padding-left: 2%;
+
+				.places-season__item--summer:before{
+					content: "  ";
+					display: inline-block;
+					width: 20px;
+					height: 20px;
+					background-color: #ef8989;
+					vertical-align: middle;
+				}
+
+				.places-season__item{
+
+				}
+
+				.places-season__item--winter:before{
+					content: "  ";
+					display: inline-block;
+					width: 20px;
+					height: 20px;
+					background-color: #04a8a8;
+					vertical-align: middle;
+				}
+
+				.places-season__item--spring:before{
+					content: "  ";
+					display: inline-block;
+					width: 20px;
+					height: 20px;
+					background-color: #cdd63f;
+					vertical-align: middle;
+				}
+
+				.places-season__item--autumn:before{
+					content: "  ";
+					display: inline-block;
+					width: 20px;
+					height: 20px;
+					background-color: #efb672;
+					vertical-align: middle;
+				}
+			}
+
+
+			.places-season__text{
+				padding-left: 2%;
+				font-size: 16px;
+				color: #201b38;
+				line-height: 30px;
+			}
 	
+		}
+
+			}
+
+
+
 }
