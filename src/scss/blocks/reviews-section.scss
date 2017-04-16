@@ -1,3 +1,44 @@
 .reviews-section{
-	
+	margin: 0 auto;
+	background-color: #b2dad0; 
+	height: 445px;
+
+
+	&__inner{
+		margin-left: 2%;
+		width: 94%;
+		padding-top: 3%;
+
+		.reviews-section__title{
+			margin: 0 auto;
+			font-family: 'Jura Light', arial;
+			padding-bottom: 3%;
+			font-size: 30px;
+			line-height: 30px;
+		}
+
+		.reviews-slider{
+			display: flex;
+
+			&__item{
+				display: flex;
+
+				.reviews-slider__item-img{
+
+					.reviews-slider__item-foto{
+
+						.reviews-slider__item-author{
+
+						}	
+					}
+				}
+
+				
+
+				.reviews-slider__item-text{
+					background-color: #fff;
+				}
+			}
+		}
+	}
 }
