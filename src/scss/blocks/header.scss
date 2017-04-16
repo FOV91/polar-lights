@@ -1,5 +1,5 @@
 .header{
-	
+	overflow: hidden;
 	
 	@media (min-width:320px){
 		background-image: url('../../img/header-back320.jpg');
@@ -50,14 +50,23 @@
 			}
 
 			.side-bar{
-				position: absolute;
-				right: -26%;
-				transform:rotate(-90deg);
-				background-color: #201b38;
-				opacity: 0.5;
-				padding-bottom: 2%;
-				padding-left: 25%;
-				padding-right: 17.1%;
+				position: absolute; 
+				right: 0; 
+				top: 0; 
+				bottom: 0; 
+				height: 100%; 
+				width: 42px; 
+				background-color: #201b38; 
+				display: block; 
+				opacity: 0.5; 
+				// position: absolute;
+				// right: -26%;
+				// transform:rotate(-90deg);
+				// background-color: #201b38;
+				// opacity: 0.5;
+				// padding-bottom: 2%;
+				// padding-left: 25%;
+				// padding-right: 17.1%;
 
 				// display: flex;
 
@@ -70,7 +79,7 @@
 
 				a.social{
 				div.social--vk{
-					background-image: url('../img/sprite-09082446549803158.png');
+					background-image: url('../../img/png-sprite/vk.png');
 					width: 25px;
 					height: 15px;
 					background-position: 0 -136px ;	
@@ -78,10 +87,14 @@
 				}
 
 				&__link{
+					display: inline-block;
+					
+					text-align: center;
+					
 					text-decoration: none;
 					color: #e6fffd;
 					font-size: 16px;
-					
+					transform:rotate(-90deg);
 				}
 			}
 
