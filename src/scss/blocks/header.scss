@@ -19,6 +19,9 @@
 	  		}
 
 			.main-nav{
+				font-family: 'Jura Light', arial;
+				font-size: 16px;
+
 				margin-left: 2%;
 				width: 94%;
 				
@@ -50,6 +53,11 @@
 			}
 
 			.side-bar{
+				font-family: 'Ubuntu', sans-serif;
+				font-weight: lighter;
+				font-size: 16px;
+				
+
 				position: absolute; 
 				right: 0; 
 				top: 0; 
@@ -79,10 +87,10 @@
 
 				a.social{
 				div.social--vk{
-					background-image: url('../../img/png-sprite/vk.png');
-					width: 25px;
-					height: 15px;
-					background-position: 0 -136px ;	
+					// background-image: url('../../img/png-sprite/vk.png');
+					// width: 25px;
+					// height: 15px;
+					// background-position: 0 -136px ;	
 					}
 				}
 
@@ -106,6 +114,9 @@
 					padding-left: 1%;
 				}
 				&__description{
+					font-family: 'Jura Light', arial;
+					font-size: 20px;
+
 					font-size: 20px;
 					padding-left: 1%;
 				}

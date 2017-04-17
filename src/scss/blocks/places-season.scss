@@ -21,7 +21,8 @@
 			
 			.places-season__title{
 				font-size: 30px;
-				font-weight: light;
+				font-family: 'Jura Light', arial;
+				font-weight: lighter;
 				color: #201b38;
 				padding-left: 2%;
 
@@ -35,6 +36,13 @@
 				color: #201b38;
 				padding-left: 2%;
 
+
+				.places-season__item{
+					font-size: 16px;
+					font-family: 'Jura Light', arial;
+				}
+
+
 				.places-season__item--summer:before{
 					content: "  ";
 					display: inline-block;
@@ -44,9 +52,7 @@
 					vertical-align: middle;
 				}
 
-				.places-season__item{
-
-				}
+				
 
 				.places-season__item--winter:before{
 					content: " ";
@@ -80,6 +86,8 @@
 
 			.places-season__text{
 				padding-left: 2%;
+				font-family: 'Ubuntu', sans-serif;
+				font-weight: lighter;
 				font-size: 16px;
 				color: #201b38;
 				line-height: 30px;

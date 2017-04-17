@@ -8,5 +8,33 @@
 		margin-left: 2%;
 		width: 94%;
 		display: flex;
+
+		.contact-desc__title{
+			font-family: 'Jura Light', arial;
+			font-size: 30px;
+
+			.contact-desc__item{
+				&__region{
+					font-family: 'Jura Light', arial;
+					font-size: 20px;
+				}
+				&__person{
+					font-family: 'Ubuntu', sans-serif;
+					font-size: 14px;
+				}
+				&__tel{
+					font-family: 'Ubuntu', sans-serif;
+					font-size: 14px;
+				}
+				&__vk{
+					font-family: 'Ubuntu', sans-serif;
+					font-size: 14px;
+				}
+				&__link{
+					font-family: 'Ubuntu', sans-serif;
+					font-size: 14px;
+				}
+			}
+		}
 	}
 }

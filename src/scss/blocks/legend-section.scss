@@ -8,14 +8,21 @@
 
 
 		.legend-section__info{
+			.legend-section__title{
+				font-family: 'Jura Light', arial;
+				font-size: 30px;
+			}
+
 			.legend-slider{
 				&__item{
 					
-				}
-				&__text{
-
+				.legend-slider__text{
+					font-family: 'Jura Light', arial;
+					font-size: 16px;
+					font-weight: lighter;
 				}
 			}
+		}
 		}
 	.legend-section__img{
 		.legend-section__photo{

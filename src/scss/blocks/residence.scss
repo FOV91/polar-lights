@@ -1,3 +1,17 @@
 .residence{
-	
+
+
+	&__inner{
+		.residence__title{
+			font-family: 'Jura Light', arial;
+			font-size: 30px;
+		}
+
+		.residence-tabs{
+			&__list{
+				font-family: 'Jura Light', arial;
+				font-size: 20px;
+			}
+		}
+	}
 }
