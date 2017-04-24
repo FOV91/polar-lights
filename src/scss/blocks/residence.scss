@@ -1,16 +1,52 @@
 .residence{
-
-
 	&__inner{
+		margin-left: 2%;
+		width: 94%;
+
 		.residence__title{
 			font-family: 'Jura Light', arial;
 			font-size: 30px;
+			color: #201b38;
 		}
 
-		.residence-tabs{
-			&__list{
-				font-family: 'Jura Light', arial;
-				font-size: 20px;
+		.residence-tabs {
+			&__list {
+				padding: 0;
+				display: flex;
+				justify-content: space-between;
+				list-style: none;
+			}
+
+			&__regions:after{
+				content: "  ";
+				display: inline-block;
+				width: 15px;
+				height: 15px;
+				background: url('../../img/residence-arrow.png');
+				background-repeat: no-repeat;
+				vertical-align: middle;
+			}
+
+
+			&__regions {
+
+				a{
+					text-decoration: none;
+					font-family: 'Jura Light', arial;
+					font-size: 20px;
+					color: #201b38;
+				}
+
+				&--active {
+				}
+			}
+
+
+			&__content {
+			}
+
+
+			&__regions-link {
 			}
 		}
 	}

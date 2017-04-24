@@ -3,38 +3,73 @@
 	background-repeat: round;
 	height: 500px;
 	width: 100%;
+	
+	
+	.contact-desc__title{
+		margin: 0 auto;
+		margin-left: 2%;
+		padding-top: 4%;
+		padding-bottom: 4%;
+		font-family: 'Jura Light', arial;
+		font-size: 30px;
+		color: #fff;
+	}
 
 	&__inner{
 		margin-left: 2%;
 		width: 94%;
 		display: flex;
-
-		.contact-desc__title{
-			font-family: 'Jura Light', arial;
-			font-size: 30px;
+		justify-content: space-between;
 
 			.contact-desc__item{
-				&__region{
+				.contact-desc__region{
 					font-family: 'Jura Light', arial;
 					font-size: 20px;
+					color: #fff;
+					margin: 0 auto;
 				}
-				&__person{
+				
+
+				.contact-desc__region:before{
+					content: "  ";
+					display: inline-block;
+					width: 15px;
+					height: 15px;
+					background-color: #03eaa5;
+					vertical-align: middle;
+				}
+
+				.contact-desc__person{
 					font-family: 'Ubuntu', sans-serif;
 					font-size: 14px;
+					color: #fff;
+					padding-bottom: 12%;
+					padding-top: 8%;
 				}
-				&__tel{
+				.contact-desc__tel{
 					font-family: 'Ubuntu', sans-serif;
 					font-size: 14px;
+					text-decoration: none;
+					color: #fff;
+					padding-bottom: 5%;
+					
 				}
-				&__vk{
+				.contact-desc__vk{
 					font-family: 'Ubuntu', sans-serif;
 					font-size: 14px;
+					text-decoration: none;
+					color: #fff;
+					padding-bottom: 5%;
+					
 				}
-				&__link{
+				.contact-desc__link{
 					font-family: 'Ubuntu', sans-serif;
 					font-size: 14px;
+					text-decoration: none;
+					color: #fff;
+					padding-bottom: 5%;
+					
 				}
 			}
-		}
 	}
 }
