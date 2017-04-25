@@ -15,6 +15,27 @@
 				display: flex;
 				justify-content: space-between;
 				list-style: none;
+				text-decoration: none;
+				font-family: 'Jura Light', arial;
+				font-size: 20px;
+				color: #201b38;
+				
+				.residence-tabs__regions{
+					cursor: pointer;
+				}
+
+				.active-li {
+						color: #91c5a7;
+				}
+				.active-li:after{
+					content: "  ";
+					display: inline-block;
+					width: 15px;
+					height: 15px;
+					background: url('../../img/residence-arrow--active.png');
+					background-repeat: no-repeat;
+					vertical-align: middle;
+				}
 			}
 
 			&__regions:after{
@@ -30,23 +51,41 @@
 
 			&__regions {
 
-				a{
-					text-decoration: none;
-					font-family: 'Jura Light', arial;
-					font-size: 20px;
-					color: #201b38;
+				
+			}
+			
+			.residence-tabs__content.active-tab {
+				display: block;
+				width: 66%;
+
+				font-family: 'Jura Light', arial;
+				font-size: 16px;
+				color: #201b38;
+
+				.residence-tabs__content-table{
+					display: grid;
+					grid-template-columns: 1fr 2fr 1fr;
+					grid-template-rows: 60px 60px 60px;
+					border: 1px solid #d0d0d0;
+					text-align: center;
+					
+					span{
+						padding-top: 15px;
+						border: 1px solid #d0d0d0;
+					}
 				}
 
-				&--active {
+				.residence-tabs__regions-link{
+					color: #201c38;
+					text-decoration: underline;
+					display: inline-block;
+					margin-top: 4%;
+					margin-bottom: 8%;
 				}
 			}
 
-
-			&__content {
-			}
-
-
-			&__regions-link {
+			.residence-tabs__content {
+				display: none;
 			}
 		}
 	}
