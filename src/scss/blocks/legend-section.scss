@@ -14,7 +14,14 @@
 			}
 
 			.legend-slider{
+				margin: 0 auto;
+				padding: 0;
+				border: 5px solid #ffdffd;
+				display: flex;
+
 				&__item{
+					border: 5px solid #000;
+					width: 100%;
 					
 				.legend-slider__text{
 					font-family: 'Jura Light', arial;

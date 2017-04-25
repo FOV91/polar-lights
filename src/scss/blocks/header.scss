@@ -2,11 +2,13 @@
 	overflow: hidden;
 	
 	@media (min-width:320px){
-		background-image: url('../../img/header-back320.jpg');
+		// background-image: url('../../img/header-back320.jpg');
+		background-image: url('/img/header-back320.jpg');
 	}
 
 	@media (min-width:1280px){
-		background-image: url('../../img/header-back-1280.jpg');
+		// background-image: url('../../img/header-back-1280.jpg');
+		background-image: url('/img/header-back-1280.jpg');
 
 		&__inner{
 			height: 620px;

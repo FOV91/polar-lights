@@ -2,54 +2,35 @@
 	&__inner{
 		margin-left: 2%;
 		width: 94%;
-	
-	font-family: 'Jura Light', arial;
+		font-family: 'Jura Light', arial;
 
-			.fact-section__title{
+		.fact-section__title{
+			color: #201b38;
+			font-family: 'Jura Light', arial;
+			font-size: 30px;
+		}
+
+		.fact-section__list{
+			list-style: none;
+			display: flex;
+			padding-left: 0;
+
+			.fact-list__item{
+				font-family: 'Ubuntu', sans-serif;
+				font-weight: lighter;
 				color: #201b38;
-				font-family: 'Jura Light', arial;
-				font-size: 30px;
-
+				font-size: 16px;
+				line-height: 30px;
 			}
 
-			.fact-section__list{
-				list-style: none;
-				display: flex;
-				padding-left: 0;
-
-				.fact-list__item{
-					font-family: 'Ubuntu', sans-serif;
-					font-weight: lighter;
-					color: #201b38;
-					font-size: 16px;
-					line-height: 30px;
-				}
-
-				.fact-list__item:before{
-					content: "  ";
-					display: block;
-					width: 15px;
-					height: 15px;
-					background-color: #03eaa5;
-					vertical-align: middle;
-				}
-
-				// .fact-list__item:last-child:before{
-				// 	content: "  ";
-				// 	display: block;
-				// 	width: 20px;
-				// 	height: 20px;
-				// 	background-color: #04a8a8;
-				// 	vertical-align: middle;
-				// }
-				// .fact-list__item:nth-child(2):before{
-				// 	content: "  ";
-				// 	display: block;
-				// 	width: 20px;
-				// 	height: 20px;
-				// 	background-color: #04a8a8;
-				// 	vertical-align: middle;
-				// }
-			}
+			.fact-list__item:before{
+				content: "  ";
+				display: block;
+				width: 15px;
+				height: 15px;
+				background-color: #03eaa5;
+				vertical-align: middle;
+			}	
+		}
 	}
 }

@@ -1,5 +1,9 @@
 $(document).ready(function(){
   // весь ваш код
 
-  $('.owl-carousel').owlCarousel();
+  $('#carouselOne').owlCarousel({
+  	item:1,
+  	nav: true,
+  	dots: true,
+  });
 });
