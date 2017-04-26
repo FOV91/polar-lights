@@ -1,23 +1,90 @@
 .places-season{
-	
+width: 100%;
+
 
 	@media (min-width:320px){
 		&__inner{
+			flex-direction:column;
+			.places-season__map{
+				order:2;
+			}	
 		
+
+			.places-season__info{
+				order:1;
+				
+				
+				
+				.places-season__title{
+				
+				}
+
+				.places-season__list{
+				
+					.places-season__item{
+					
+					}
+				}
+
+				.places-season__text{
+					
+
+				}
+			}
 		}
 	}
 
 
 	@media (min-width:768px){
 		&__inner{
-			
+			flex-direction:row;
+			.places-season__map{
+				order:1;
+			}	
+				
+
+			.places-season__info{
+				order:2;
+				.places-season__title{
+				
+				}
+
+				.places-season__list{
+
+					.places-season__item{
+					
+					}
+				}
+
+				.places-season__text{}
+			}
 		}
 	}
 
 
 	@media (min-width:1280px){
 		&__inner{
-			
+			flex-direction:row;
+			.places-season__map{
+				order:1;
+			}	
+		
+
+			.places-season__info{
+				order:2;
+				.places-season__title{
+				
+				}
+
+				.places-season__list{
+
+					.places-season__item{
+					
+					}
+				}
+
+				.places-season__text{}
+			}
 		}
 	}
 
@@ -27,7 +94,7 @@
 		margin-left: 2%;
 		width: 94%;
 		display: flex;
-		height: 534px;
+		height: 700px;
 		
 		.places-season__map{
 			background-image: url('../../img/places-season-map.jpg');
