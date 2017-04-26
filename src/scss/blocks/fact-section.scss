@@ -1,4 +1,7 @@
 .fact-section{
+	background: #f7f7f7;
+
+
 	&__inner{
 		margin-left: 2%;
 		width: 94%;
@@ -8,12 +11,19 @@
 			color: #201b38;
 			font-family: 'Jura Light', arial;
 			font-size: 30px;
+			box-sizing: border-box;
+			padding-top: 3%;
+			padding-bottom: 3%;
 		}
 
 		.fact-section__list{
 			list-style: none;
-			display: flex;
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr;
 			padding-left: 0;
+			border-top: 2px solid #03eaa5;
+			position: relative;
+			padding-bottom: 3%;
 
 			.fact-list__item{
 				font-family: 'Ubuntu', sans-serif;
@@ -21,15 +31,32 @@
 				color: #201b38;
 				font-size: 16px;
 				line-height: 30px;
+				box-sizing: border-box;
+				padding-right: 8%;
+				padding-top: 4%;
+
+				.fact-list__number{
+					font-family: 'Ubuntu', sans-serif;
+					font-weight: bold;
+					color: #201b38;
+					font-size: 44.8px;
+					color: #e6e6e6;
+					position: absolute;
+					top:-38px;
+					z-index:1;
+					
+				}
 			}
 
 			.fact-list__item:before{
 				content: "  ";
-				display: block;
+				position: absolute;
+				top:-7.5px;
 				width: 15px;
 				height: 15px;
 				background-color: #03eaa5;
 				vertical-align: middle;
+				z-index:2;
 			}	
 		}
 	}
