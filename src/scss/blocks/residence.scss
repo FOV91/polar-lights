@@ -4,6 +4,7 @@
 
 
 	@media (min-width:320px){
+		background-color: #fff;
 		&__inner{
 			.residence__title {
 			}
@@ -39,6 +40,7 @@
 
 
 	@media (min-width:768px){
+		background-color: #eaeaec;
 		&__inner{
 			.residence__title {
 			}
@@ -75,12 +77,13 @@
 
 
 	@media (min-width:1280px){
+		background-color: #fff;
 		&__inner{
 			.residence__title {
 			}
 			.residence-tabs {
 				display: block;
-				
+
 				.residence-tabs__list {
 					flex-direction:row;
 					
