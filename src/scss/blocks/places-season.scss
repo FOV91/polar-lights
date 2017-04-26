@@ -1,4 +1,27 @@
 .places-season{
+	
+
+	@media (min-width:320px){
+		&__inner{
+		
+		}
+	}
+
+
+	@media (min-width:768px){
+		&__inner{
+			
+		}
+	}
+
+
+	@media (min-width:1280px){
+		&__inner{
+			
+		}
+	}
+
+
 
 	&__inner{
 		margin-left: 2%;
@@ -97,11 +120,10 @@
 				line-height: 30px;
 				margin-top: 12%;
 			}
-	
 		}
-
-			}
-
-
-
+	}
 }
+
+
+
+

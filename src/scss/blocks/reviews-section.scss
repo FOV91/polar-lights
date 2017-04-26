@@ -2,7 +2,32 @@
 	margin: 0 auto;
 	background-color: #b2dad0; 
 	height: 445px;
+	
 
+
+
+	@media (min-width:320px){
+		&__inner{
+		
+		}
+	}
+
+
+	@media (min-width:768px){
+		&__inner{
+			
+		}
+	}
+
+
+	@media (min-width:1280px){
+		&__inner{
+			
+		}
+	}
+
+
+	
 
 	&__inner{
 		margin-left: 2%;
