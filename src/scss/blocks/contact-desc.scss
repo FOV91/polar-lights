@@ -1,7 +1,9 @@
 .contact-desc{
 	background-image: url('../../img/conatcts-map.jpg');
-	background-repeat: round;
-	height: 500px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+
 	width: 100%;
 	
 	
@@ -9,67 +11,97 @@
 		margin: 0 auto;
 		margin-left: 2%;
 		padding-top: 4%;
-		padding-bottom: 4%;
 		font-family: 'Jura Light', arial;
 		font-size: 30px;
 		color: #fff;
 	}
 
 	&__inner{
-		margin-left: 2%;
-		width: 94%;
-		display: flex;
-		justify-content: space-between;
+		padding-bottom: 10%;
+
+		.contact-desc__item{
+			padding-top: 5%;
+
+			.contact-desc__region{
+				font-family: 'Jura Light', arial;
+				font-size: 20px;
+				color: #fff;
+				margin: 0 auto;
+				
+			}
+			.contact-desc__region:before{
+				content: "  ";
+				display: inline-block;
+				width: 10px;
+				height: 10px;
+				background-color: #03eaa5;
+				vertical-align: middle;
+			}
+			.contact-desc__person{
+				font-family: 'Ubuntu', sans-serif;
+				font-size: 14px;
+				color: #fff;
+				padding-bottom: 12%;
+				padding-top: 8%;
+			}
+			.contact-desc__tel{
+				font-family: 'Ubuntu', sans-serif;
+				font-size: 14px;
+				text-decoration: none;
+				color: #fff;
+				padding-bottom: 5%;	
+			}
+			.contact-desc__vk{
+				font-family: 'Ubuntu', sans-serif;
+				font-size: 14px;
+				text-decoration: none;
+				color: #fff;
+				padding-bottom: 5%;
+			}
+			.contact-desc__link{
+				font-family: 'Ubuntu', sans-serif;
+				font-size: 14px;
+				text-decoration: none;
+				color: #fff;
+				padding-bottom: 5%;	
+			}
+		}
+	}
+
+
+
+		@media (min-width:1280px){
+
+			&__inner{
+				margin-left: 2%;
+				width: 94%;
+				display: flex;
+				justify-content: space-between;
+			}
 
 			.contact-desc__item{
-				.contact-desc__region{
-					font-family: 'Jura Light', arial;
-					font-size: 20px;
-					color: #fff;
-					margin: 0 auto;
+					width: 13.33%;
 				}
-				
+		}
 
-				.contact-desc__region:before{
-					content: "  ";
-					display: inline-block;
-					width: 10px;
-					height: 10px;
-					background-color: #03eaa5;
-					vertical-align: middle;
-				}
 
-				.contact-desc__person{
-					font-family: 'Ubuntu', sans-serif;
-					font-size: 14px;
-					color: #fff;
-					padding-bottom: 12%;
-					padding-top: 8%;
-				}
-				.contact-desc__tel{
-					font-family: 'Ubuntu', sans-serif;
-					font-size: 14px;
-					text-decoration: none;
-					color: #fff;
-					padding-bottom: 5%;
-					
-				}
-				.contact-desc__vk{
-					font-family: 'Ubuntu', sans-serif;
-					font-size: 14px;
-					text-decoration: none;
-					color: #fff;
-					padding-bottom: 5%;
-					
-				}
-				.contact-desc__link{
-					font-family: 'Ubuntu', sans-serif;
-					font-size: 14px;
-					text-decoration: none;
-					color: #fff;
-					padding-bottom: 5%;
-					
+
+		@media (min-width:768px){
+			&__inner{
+				margin-left: 2%;
+				width: 94%;
+				display: flex;
+				flex-wrap:wrap;
+
+				.contact-desc__item{
+					width: 25%;
 				}
 			}
-	}
+		}
+	
+
+
+		@media (min-width:320px){
+
+		}
 }
