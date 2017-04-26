@@ -23,7 +23,9 @@
 			&__item{
 				display: flex;
 
+				
 				.reviews-slider__item-img{
+					width: 30%;
 
 					.reviews-slider__item-foto{
 
@@ -36,16 +38,27 @@
 				}
 
 				.reviews-slider__item-text{
+					
+					width: 60%;
 					font-family: 'Ubuntu', sans-serif;
 					font-size: 16px;
 					font-weight: lighter;
-				}
-
-				
-
-				.reviews-slider__item-text{
 					background-color: #fff;
+					box-sizing: border-box;
+					padding: 20px;
+					margin: 0 auto;
+					margin-left: 5%;
+					position: relative;
+					
 				}
+
+				.reviews-slider__item-text:after {
+				    content: ''; 
+				    position: absolute; /* Абсолютное позиционирование */
+				    left: -30px; top:0; /* Положение треугольника */
+				    border: 30px solid transparent; /* Прозрачные границы */
+				    border-top: 20px solid #fff; /* Добавляем треугольник */
+				   }
 			}
 		}
 	}

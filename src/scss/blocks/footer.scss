@@ -1,13 +1,20 @@
 .footer{
 	background-color:#201b38;
-	color: #fff;
+	height: 60px;
 
 	&__inner{
-		
-		p.footer__text{
+	
+
+		.footer__text{
+			display: block;
+			margin-right: 4%;
+			float: right;
+			color: #fff;
 			font-family: 'Ubuntu';
 			font-size: 16px;
-			line-height: 30;
+		
+			
+		
 		}
 	}
 }
