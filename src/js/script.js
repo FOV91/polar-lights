@@ -1,11 +1,16 @@
 $(document).ready(function(){
   // весь ваш код
 
-  // $('#carouselOne').owlCarousel({
-  // 	item:1,
-  // 	nav: true,
-  // 	dots: true,
-  // });
+  	$('.single-item').slick({
+  		  dots: true,
+		  prevArrow: '<img src="/img/leggends-arrow-prev.png" width="40px" height="48px">',
+		  nextArrow: '<img class="nextArrow" src="/img/leggends-arrow-next.png" width="40px" height="48px">'
+  	});
+
+
+    
+
+
 
 
 	$('ul.residence-tabs__list').each(function() {
@@ -23,41 +28,5 @@ $(document).ready(function(){
 	      	});
 	    });
   	});
-
-
-  // 	@media (min-width:320px){
-  // 		window.onload = function(){
-	 //    var b1 = document.getElementById("b1");
-	 //    var b2 = document.getElementById("b2");
-	 //    b1.parentNode.insertBefore(b2, b1);
- 	// 	}
- 	// }
-
-
-
- // 	if($(window).width() < 321) {
- //    	window.onload = function(){
-	//     var b1 = document.getElementById("b1");
-	//     var b2 = document.getElementById("b2");
-	//     b1.parentNode.insertBefore(b2, b1);
-	// }
-	// } else {
-	//     window.onload = function(){
-	//     var b1 = document.getElementById("b1");
-	//     var b2 = document.getElementById("b2");
-	//     b1.parentNode.insertBefore(b1, b2);
-	// }
-	// }
-
-
-
-// 	if(window.matchMedia('(min-width: 320px)').matches)
-// 	{
-// 	    window.onload = function(){
-// 	    var b1 = document.getElementById("b1");
-// 	    var b2 = document.getElementById("b2");
-// 	    b1.parentNode.insertBefore(b2, b1);
-// 	   } 
-// }
 
 });

@@ -9,21 +9,21 @@
 
 	@media (min-width:320px){
 		&__inner{
-		
+			width: 320px;
 		}
 	}
 
 
 	@media (min-width:768px){
 		&__inner{
-			
+			width: 768px;
 		}
 	}
 
 
 	@media (min-width:1280px){
 		&__inner{
-			
+			width: 1280px;
 		}
 	}
 
@@ -31,8 +31,8 @@
 	
 
 	&__inner{
-		margin-left: 2%;
-		width: 94%;
+		margin: 0 auto;
+		width: 1280px;
 		padding-top: 3%;
 
 		.reviews-section__title{

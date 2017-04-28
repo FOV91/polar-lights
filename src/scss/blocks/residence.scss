@@ -6,6 +6,8 @@
 	@media (min-width:320px){
 		background-color: #fff;
 		&__inner{
+			width: 320px;
+
 			.residence__title {
 			}
 			.residence-tabs {
@@ -41,7 +43,10 @@
 
 	@media (min-width:768px){
 		background-color: #eaeaec;
+
 		&__inner{
+			width: 768px;
+
 			.residence__title {
 			}
 			.residence-tabs {
@@ -78,7 +83,10 @@
 
 	@media (min-width:1280px){
 		background-color: #fff;
+
 		&__inner{
+			width: 1280px;
+			
 			.residence__title {
 			}
 			.residence-tabs {
@@ -114,8 +122,8 @@
 
 	
 	&__inner{
-		margin-left: 2%;
-		width: 94%;
+		width: 1280px;
+		margin: 0 auto;
 
 		.residence__title{
 			font-family: 'Jura Light', arial;

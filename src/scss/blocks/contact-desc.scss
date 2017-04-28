@@ -2,17 +2,20 @@
 	background-image: url('../../img/conatcts-map.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
-	width: 100%;
+	
 
 
 
 	@media (min-width:320px){
 		.contact-desc__title{
+			width: 320px;
+			margin: 0 auto;
+			margin-top: 0;
 			padding-top: 10%;
 			padding-bottom: 5%;	
 		}
 		&__inner{
-			margin-left: 2%;
+			width: 320px;
 			display: flex;
 			flex-wrap:wrap;
 			padding-bottom: 25%;
@@ -41,12 +44,14 @@
 
 	@media (min-width:768px){
 		.contact-desc__title{
+			width: 768px;
+			margin: 0 auto;
+			margin-top: 0;
 			padding-top: 5%;
 			padding-bottom: 0;	
 		}
 		&__inner{
-			margin-left: 2%;
-			width: 94%;
+			width: 768px;
 			display: flex;
 			flex-wrap:wrap;
 			padding-bottom: 10%;
@@ -73,12 +78,14 @@
 
 	@media (min-width:1280px){
 		.contact-desc__title{
+			width: 1280px;
+			margin: 0 auto;
+			margin-top: 0;
 			padding-top: 5%;
 			padding-bottom: 0;	
 		}
 		&__inner{
-			margin-left: 2%;
-			width: 94%;
+			width: 1280px;
 			display: flex;
 			justify-content: space-between;
 			padding-bottom: 10%;
@@ -103,20 +110,20 @@
 	}
 
 
-	
-	
-	.contact-desc__title{
-		margin: 0 auto;
-		margin-left: 2%;
-		
-		font-family: 'Jura Light', arial;
-		font-size: 30px;
-		color: #fff;
-		padding-top: 5%;
-	}
+.contact-desc__title{
+			font-family: 'Jura Light', arial;
+			font-size: 30px;
+			color: #fff;
+			
+		}
 
 	&__inner{
+		width: 1280px;
+		margin: 0 auto;
 		padding-bottom: 10%;
+
+		
+
 
 		.contact-desc__item{
 			padding-top: 5%;
