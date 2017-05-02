@@ -1,62 +1,89 @@
 .legend-section{
 	overflow: hidden;
-	height: 500px;
+	
 	
 	@media (min-width:320px){
+		background-image: url("/img/legend-section-img.jpg");
+		background-position: 80% 0;
+		
 		&__inner{
-			width: 100%;
+			width: 320px;
+
+			.opacity-layer{
+				position: absolute;
+				width: 320px;
+				height: 500px;
+				background-color: #171621;
+				opacity: 0.46;
+				z-index: 100;
+			}
+
 			.legend-section__info{
+				
+				
 				background-color: none;
 				width: 100%;
 				z-index: 111;
 				position: relative;
+
 				
 
 				.legend-section__title{
-					padding-right: 0;
 					padding-left: 1%;
+					padding-right: 0;
+					font-size: 20px;
 					color: #fff;
+					margin-bottom: 0;
 				}
 
 				.legend-slider{
 					.legend-slider__item{
 						color: #fff;
+						width: 320px;
+						.legend-slider__text{
+							padding-left: 9%;
+							padding-right: 9%;
+							font-size: 12px;
+						}
 					}
 				}
 			}
 
 			.legend-section__img{
-				position: absolute;
-				width: 100%;
-				z-index: 2;
 			}
 		}
 
 		.nextArrow{
-			margin-right: -20%;
+			margin-right: -30%;
 		}
 		.prevArrow{
-			margin-left: -20%;
+			margin-left: -30%;
 		}
 		.slick-slide{
 			box-sizing: border-box;
-			padding-left: 1.5%;
+			padding-left: 1%;
 			padding-top: 1%;
-			padding-right: 1.5%; 
+			padding-right: 1%; 
+			width: 320px;
 		}
 
 		.slick-dots {
 			bottom: -100px;
+			padding-left: 0;
 			margin-left: 0;
-			padding-left: 2%;
 		}
 	}
 
 
 	@media (min-width:768px){
 		background-color: #eaeaec;
+		background-image: none;
+
 		&__inner{
 			width: 768px;
+			.opacity-layer{
+				display: none;
+			}
 			.legend-section__info{
 				background-color: #eaeaec;
 				width: $col6;
@@ -71,6 +98,11 @@
 				.legend-slider{
 					.legend-slider__item{
 						color: #3b3750;
+							.legend-slider__text{
+								padding-left: 0%;
+								padding-right: 0%;
+								font-size: 12px;
+							}
 					}
 				}
 			}
@@ -96,7 +128,7 @@
 			margin-right: -11%;
 		}
 		.slick-dots {
-			bottom: -60px;
+			bottom: -150px;
 			margin-left: 40px;
 			padding-left: 28.479px;
 		}
@@ -107,6 +139,9 @@
 		background-color: #fff;
 		&__inner{
 			width: 1280px;
+			.opacity-layer{
+				display: none;
+			}
 			.legend-section__info{
 				background-color: #fff;
 				width: $col6;
@@ -116,11 +151,17 @@
 					padding-right: 30%;
 					padding-left: 1%;
 					color: #3b3750;
+					font-size: 30px;
 				}
 
 				.legend-slider{
 					.legend-slider__item{
 						color: #3b3750;
+							.legend-slider__text{
+								padding-left: 0%;
+								padding-right: 0%;
+								font-size: 16px;
+							}
 					}
 				}
 			}
@@ -169,7 +210,7 @@
 				
 
 				.legend-section__title{
-					font-family: 'Jura Light', arial;
+					font-family: 'Jura', arial;
 					font-size: 30px;
 					width: 100%;
 					display: block;
@@ -187,7 +228,7 @@
 						width: 100%;
 						
 						.legend-slider__text{
-							font-family: 'Jura Light', arial;
+							font-family: 'Jura', arial;
 							font-size: 16px;
 							font-weight: lighter;
 							line-height: 30px;
@@ -235,15 +276,15 @@
 		padding-left: 42.333px;
 	}
 	.slick-dots li {
-		margin-right: 30px;
+		margin-right: 15px;
 		float: left;
 	}
 
 	.slick-dots li button:before {
 	 	content:' ';
-	 	width: 20px;
-	 	height: 20px;
-	 	background: #b2dad0;
+	 	width: 15px;
+	 	height: 15px;
+	 	background: #03eaa5;
 	 }
 
 	.slick-dots li.slick-active button:before {

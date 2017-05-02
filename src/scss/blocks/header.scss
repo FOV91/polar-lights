@@ -8,20 +8,35 @@
 		background-image: url("/img/header-back320.jpg");
 
 		&__inner{
-			width: 100%;
+			width: 320px;
 			
 			.nav-burger{
 				display: block;
 			}
 			.main-nav{
 				display: none;
+				font-size: 14px;
 			}
 			.side-bar{
 				display: block;
 				float: right;
+				right: 0;
+				.social-morefoto{
+					font-family: 'Ubuntu', sans-serif;
+					font-weight: lighter;
+					font-size: 12px;
+				}
 			}
 			.main-title{
-				padding-top: 50%;
+				padding-top: 70%;
+				padding-left: 1%;
+				margin-left: 0;
+				&__head{
+					font-size: 30px;
+				}
+				&__description{
+					font-size: 16px;
+				}
 			}
 		}
 
@@ -41,6 +56,7 @@
 			.main-nav{
 				display: block;
 				width: 96%;
+				font-size: 14px;
 			}
 			.side-bar{
 				display: none;
@@ -66,6 +82,7 @@
 			.main-nav{
 				display: block;
 				width:94%;
+				font-size: 16px;
 			}
 			.side-bar{
 				display: block;
@@ -94,19 +111,20 @@
 				position: absolute;
 				list-style:none;
 				padding: 10px;
+				padding-left: 60px;
 				margin: 0;
 				box-sizing: border-box;
-				width: 150px;
+				width: 200px;
 				height: 620px;
 				background-color: #1c1531;
 				top: 0px;
-				left: -150px;
+				left: -250px;
 				transition: left .2s;
 				z-index: 2;
 				-webkit-transform: translateZ(0);
 				-webkit-backface-visibility: hidden;
 			  
-				padding-top: 100px;
+				padding-top: 200px;
 				
 				.main-nav__item--burger{
 					padding-bottom: 10px;
@@ -115,7 +133,7 @@
 			  	.main-nav__item--burger a{
 				  	color: #fff;
 				  	text-decoration: none;
-				  	font-family: 'Jura Light', arial;
+				  	font-family: 'Jura', arial, sans-serif;
 					font-size: 14px;
 
 			  	}
@@ -129,7 +147,7 @@
 
 			.btn-menu {
 			  border-radius: 90%;
-			  border: 3px solid #b6c9cc;
+			  border: 2px solid #b6c9cc;
 			  color: #b6c9cc;
 			  background-color: #1c1531;
 			  padding: 5px;
@@ -145,7 +163,7 @@
 			}
 			.btn-menu span {
 			  display: block;
-			  height: 2px;
+			  height: 1px;
 			  background-color: #b6c9cc;
 			  margin: 8px 0 0;
 			  transition: all .1s linear .23s;
@@ -161,7 +179,7 @@
 			}
 			.hidden-menu-ticker:checked ~ .hidden-menu {
 			  top: 0px;
-			  left: 0;
+			  left: -45px;
 			}
 			.hidden-menu-ticker:checked ~ .btn-menu span.first {
 			  -webkit-transform: rotate(45deg);
@@ -182,7 +200,7 @@
 		}
 
 		.main-nav{
-			font-family: 'Jura Light', arial;
+			font-family: 'Jura', arial, sans-serif;
 			font-size: 16px;
 			width: 100%;
 			background-color: #201b38;
@@ -219,12 +237,13 @@
 			padding-top: 5%;
 
 			&__head{
+				font-family: 'Nord Medium';
 				font-size: 50px;
 				padding-left: 1%;
 			}
 
 			&__description{
-				font-family: 'Jura Light', arial;
+				font-family: 'Jura', arial, sans-serif;
 				font-size: 20px;
 				padding-left: 1%;
 			}
@@ -232,11 +251,11 @@
 
 		.side-bar{
 			display: block;
-			font-family: 'Ubuntu', sans-serif;
+			font-family: 'Ubuntu',arial, sans-serif;
 			font-weight: lighter;
 			font-size: 16px;
 			position: absolute; 
-			right: 0; 
+			right: -42px; 
 			top: -3%; 
 			bottom: 0; 
 			height: 103%; 

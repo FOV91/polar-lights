@@ -13,17 +13,23 @@
 			margin-top: 0;
 			padding-top: 10%;
 			padding-bottom: 5%;	
+			padding-left: 1%;
+			font-size: 20px;
 		}
 		&__inner{
 			width: 320px;
 			display: flex;
 			flex-wrap:wrap;
+			padding: 1%;
 			padding-bottom: 25%;
-			
 
 			.contact-desc__item{
 				width: 49%;
 				padding-top: 10%;
+
+				.contact-desc__region{
+					font-size: 14px;
+				}
 
 				.contact-desc__person{
 					display: none;
@@ -111,7 +117,7 @@
 
 
 .contact-desc__title{
-			font-family: 'Jura Light', arial;
+			font-family: 'Jura', arial;
 			font-size: 30px;
 			color: #fff;
 			
@@ -129,7 +135,7 @@
 			padding-top: 5%;
 
 			.contact-desc__region{
-				font-family: 'Jura Light', arial;
+				font-family: 'Jura', arial;
 				font-size: 20px;
 				color: #fff;
 				margin: 0 auto;

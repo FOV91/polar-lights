@@ -9,6 +9,19 @@ $(document).ready(function(){
   		
 	});
 
+	$('.multiple-items').slick({
+  		
+    		// if($(window).width() < 321px)
+    		// 	{slidesToShow: 1,} 
+		// .load($(window).bind(function checkPosition(){
+		// 	if($(window).width() < 321)
+		//     {slidesToShow: 1,} 
+		// 	else {slidesToShow: 2,}
+		// }
+    	
+		dots: true,
+	});
+
 
     
 

@@ -10,6 +10,38 @@
 	@media (min-width:320px){
 		&__inner{
 			width: 320px;
+			padding: 1%;
+
+			.reviews-section__title{
+				font-size: 20px;
+			}
+
+			.reviews-slider{
+			display: flex;
+
+				.reviews-slider__item{
+					
+					.reviews-slider__item-img{
+
+						.reviews-slider__item-foto{
+						}
+						.reviews-slider__item-author{
+							font-size: 10px;
+							font-weight: lighter;
+						}	
+						
+					}
+
+					.reviews-slider__item-text{
+						font-size: 10px;
+						font-weight: lighter;
+					}
+
+					.reviews-slider__item-text:after {
+					
+					}
+				}
+			}
 		}
 	}
 
@@ -37,7 +69,7 @@
 
 		.reviews-section__title{
 			margin: 0 auto;
-			font-family: 'Jura Light', arial;
+			font-family: 'Jura', arial;
 			padding-bottom: 3%;
 			font-size: 30px;
 			line-height: 30px;
@@ -53,13 +85,13 @@
 				.reviews-slider__item-img{
 					width: 30%;
 
-					.reviews-slider__item-foto{
+					.reviews-slider__item-foto{	
+					}
 
-						.reviews-slider__item-author{
-							font-family: 'Ubuntu', sans-serif;
-							font-size: 16px;
-							font-weight: lighter;
-						}	
+					.reviews-slider__item-author{
+						font-family: 'Ubuntu', sans-serif;
+						font-size: 16px;
+						font-weight: lighter;
 					}
 				}
 
@@ -84,7 +116,7 @@
 				    left: -30px; top:0; /* Положение треугольника */
 				    border: 30px solid transparent; /* Прозрачные границы */
 				    border-top: 20px solid #fff; /* Добавляем треугольник */
-				   }
+				}
 			}
 		}
 	}
