@@ -4,7 +4,7 @@ $(document).ready(function(){
   	$('.single-item').slick({
   		  dots: true,
   		  
-  		  prevArrow: '<img class="prevArrow" src="/img/leggends-arrow-prev.png" width="40px" height="48px">',
+  		prevArrow: '<img class="prevArrow" src="/img/leggends-arrow-prev.png" width="40px" height="48px">',
 		  nextArrow: '<img class="nextArrow" src="/img/leggends-arrow-next.png" width="40px" height="48px">'
   		
 	});
@@ -18,8 +18,9 @@ $(document).ready(function(){
 		//     {slidesToShow: 1,} 
 		// 	else {slidesToShow: 2,}
 		// }
-    	
+  
 		dots: true,
+		slidesToShow: 1,
 	});
 
 

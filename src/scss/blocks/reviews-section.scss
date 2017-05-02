@@ -1,7 +1,6 @@
 .reviews-section{
 	margin: 0 auto;
 	background-color: #b2dad0; 
-	height: 445px;
 	overflow: hidden;
 	
 
@@ -22,8 +21,10 @@
 				.reviews-slider__item{
 					
 					.reviews-slider__item-img{
-
+							width: 40px;
+							height: 30px;
 						.reviews-slider__item-foto{
+						
 						}
 						.reviews-slider__item-author{
 							font-size: 10px;
@@ -83,7 +84,7 @@
 
 				
 				.reviews-slider__item-img{
-					width: 30%;
+					width: $col4;
 
 					.reviews-slider__item-foto{	
 					}
@@ -97,7 +98,7 @@
 
 				.reviews-slider__item-text{
 					
-					width: 60%;
+					width: $col7;
 					font-family: 'Ubuntu', sans-serif;
 					font-size: 16px;
 					font-weight: lighter;

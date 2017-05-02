@@ -3,11 +3,13 @@
 @import 'src/css/slick-theme';
 
 
+
+
 @import 'variables.scss';
 
 @import 'global.scss';
 @import 'fonts.scss';
-@import 'sprite.scss';
+//@import 'sprite.scss';
 
 
 
@@ -15,9 +17,9 @@
 
 //@import 'mixins.scss';
 
-//@import 'blocks/page-header.scss';
-//@import 'blocks/btn.scss';
-//@import 'blocks/slider.scss';
+@import 'blocks/page-header.scss';
+@import 'blocks/btn.scss';
+@import 'blocks/slider.scss';
 
 @import 'blocks/main.scss';
 @import 'blocks/contact-desc.scss';
@@ -29,4 +31,3 @@
 @import 'blocks/residence.scss';
 @import 'blocks/reviews-section.scss';
 @import 'blocks/body.scss';
-
