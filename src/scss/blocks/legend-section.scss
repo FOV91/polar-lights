@@ -12,7 +12,7 @@
 			.opacity-layer{
 				position: absolute;
 				width: 320px;
-				height: 500px;
+				height: 450px;
 				background-color: #171621;
 				opacity: 0.46;
 				z-index: 100;
@@ -90,9 +90,10 @@
 				z-index: 111;
 
 				.legend-section__title{
-					padding-right: 0;
+					padding-right: 20%;
 					padding-left: 2%;
 					color: #3b3750;
+					line-height: 20px;
 				}
 
 				.legend-slider{
@@ -102,6 +103,7 @@
 								padding-left: 0%;
 								padding-right: 0%;
 								font-size: 12px;
+								line-height: 19px;
 							}
 					}
 				}
@@ -152,6 +154,7 @@
 					padding-left: 1%;
 					color: #3b3750;
 					font-size: 30px;
+					line-height: 36px;
 				}
 
 				.legend-slider{
@@ -161,6 +164,7 @@
 								padding-left: 0%;
 								padding-right: 0%;
 								font-size: 16px;
+								line-height: 30px;
 							}
 					}
 				}
@@ -187,7 +191,7 @@
 			margin-right: -7%;
 		}
 		.slick-dots {
-			bottom: -150px;
+			bottom: -100px;
 			margin-left: 40px;
 			padding-left: 42.333px;
 		}
@@ -239,7 +243,7 @@
 
 		.legend-section__img{
 			width: 46%;
-			height: 500px;
+			height: 450px;
 			background-image: url("/img/legend-section-img.jpg");
 			background-size: cover;
 			background-position: center;

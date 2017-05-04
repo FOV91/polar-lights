@@ -39,12 +39,13 @@
 				}
 			}
 		}
-
 	}
 
 
 	@media (min-width: 768px){
-		background-image: url('/img/header-back-1280.jpg');
+		background-image: url("/img/header-back-1280.jpg");
+		background-size: cover;
+		background-position: center;
 
 		&__inner{
 			width: 768px;
@@ -54,6 +55,7 @@
 			}
 
 			.main-nav{
+				margin: 0 auto;
 				display: block;
 				width: 96%;
 				font-size: 14px;
@@ -70,7 +72,9 @@
 
 
 	@media (min-width: 1280px){
-		background-image: url('/img/header-back-1280.jpg');
+		background-image: url("/img/header-back-1280.jpg");
+		background-size: cover;
+		background-position: center;
 
 		&__inner{
 			width: 1280px;
@@ -86,10 +90,18 @@
 			}
 			.side-bar{
 				display: block;
+				right: -42px;
 			}
 			.main-title{
 				padding-top: 5%;
 				margin-left: 0;
+				&__head{
+					font-size: 50px;
+				}
+
+				&__description{
+					font-size: 20px;
+				}
 			}
 		}
 	}
@@ -134,7 +146,7 @@
 				  	color: #fff;
 				  	text-decoration: none;
 				  	font-family: 'Jura', arial, sans-serif;
-					font-size: 14px;
+						font-size: 14px;
 
 			  	}
 			}

@@ -54,9 +54,13 @@
 	@media (min-width:768px){
 		&__inner{
 			width: 768px;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+			padding: 1%;
 
 			.fact-section__title{
-			
+			 font-size: 20px;
 			}
 		
 			.fact-section__line{
@@ -72,18 +76,27 @@
 
 				.fact-list__item{
 					position: relative;
-					
+					font-size: 12px;
+					line-height: 18px;
+					padding-top: 10px;
+					padding-right: 10px;
 
 					.fact-list__number{
-						
+						font-size: 27.23px;
 						position: absolute;
-						top:-38px;
+						left: 5px;
+						top:-23px;
 						z-index:1;
 					}	
 				}
 
+				.fact-list__item:first-child{
+					padding-right: 10px;
+				}
+
 				.fact-list__number:before{
-					left:0px;
+					left:-5px;
+					top: 18px;
 				}	
 			}
 		}
@@ -92,10 +105,10 @@
 
 	@media (min-width:1280px){
 		&__inner{
-			width: 1280px;
+			width: 1278px;
 
 			.fact-section__title{
-			
+				font-size: 30px;
 			}
 		
 			.fact-section__line{
@@ -111,18 +124,30 @@
 
 				.fact-list__item{
 					position: relative;
-					
+					font-size: 16px;
+					line-height: 30px;
+					padding-right: 30px;
 
 					.fact-list__number{
-						
+						font-size: 44.88px;
 						position: absolute;
-						top:-38px;
+						top:-40px;
+						left:5px;
 						z-index:1;
+
 					}	
+				}
+				
+				.fact-list__item:first-child{
+					padding-right: 30px;
 				}
 
 				.fact-list__number:before{
 					left:0px;
+					width: 15px;
+					height: 15px;
+					top:32px;
+					left:-5px;
 				}	
 			}
 		}
@@ -148,11 +173,11 @@
 		
 		.fact-section__line{
 			border-top: 1px solid #03eaa5;
-			width: 220px;
+			width: 210px;
 			transform: rotate(90deg);
 			position: absolute;
-			top:225px;
-			left:-100px;
+			top:215px;
+			left:-95px;
 		}
 		.fact-section__list{
 			list-style: none;

@@ -10,17 +10,28 @@ $(document).ready(function(){
 	});
 
 	$('.multiple-items').slick({
-  		
-    		// if($(window).width() < 321px)
-    		// 	{slidesToShow: 1,} 
-		// .load($(window).bind(function checkPosition(){
-		// 	if($(window).width() < 321)
-		//     {slidesToShow: 1,} 
-		// 	else {slidesToShow: 2,}
-		// }
-  
-		dots: true,
-		slidesToShow: 1,
+  	dots: true,
+  	
+		responsive: [
+	    {
+	      breakpoint: 1280,
+	      settings: {
+	        slidesToShow: 2,
+	      }
+	    },
+	    {
+	      breakpoint: 768,
+	      settings: {
+	        slidesToShow: 2,
+	      }
+	    },
+	    {
+	      breakpoint: 320,
+	      settings: {
+	        slidesToShow: 1,
+	      }
+	    }
+  	]
 	});
 
 

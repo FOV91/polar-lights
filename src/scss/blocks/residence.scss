@@ -52,8 +52,13 @@
 
 		&__inner{
 			width: 768px;
+			padding: 1%;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
 
 			.residence__title {
+				font-size: 20px;
 			}
 			.residence-tabs {
 				display: block;
@@ -63,19 +68,23 @@
 				
 
 					.residence-tabs__regions {
+						font-size: 12px;
 					}
 					.active-li {
 					}
 				}
 				.residence-tabs__content.active-tab {
-					width: 66%;
+					width: $col8;
 				}
 				.residence-tabs__content {
 					.residence-tabs__content-table {
+						font-size: 10px;
 					}
 					.active-tab {
 					}
 					.residence-tabs__regions-link {
+						font-weight: lighter;
+						font-size: 12px;
 					}
 				}	
 			}
@@ -92,8 +101,13 @@
 
 		&__inner{
 			width: 1280px;
-			
+			padding: 1%;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+
 			.residence__title {
+				font-size: 30px;
 			}
 			.residence-tabs {
 				display: block;
@@ -102,6 +116,7 @@
 					flex-direction:row;
 					
 					.residence-tabs__regions {
+						font-size: 20px;
 					}
 					.active-li {
 					}
@@ -111,10 +126,13 @@
 				}
 				.residence-tabs__content {
 					.residence-tabs__content-table {
+						font-size: 16px;
 					}
 					.active-tab {
 					}
 					.residence-tabs__regions-link {
+						font-weight: lighter;
+						font-size: 16px;
 					}
 				}	
 			}

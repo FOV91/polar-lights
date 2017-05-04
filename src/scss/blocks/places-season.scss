@@ -112,30 +112,57 @@
 		&__inner{
 			width: 1280px;
 			flex-direction:row;
+			padding: 0;
 
 			.places-season__map{
 				order:1;
-				height: 450px;
+				height: 550px;
 			}	
 		
 
 			.places-season__info{
+				padding: 2%;
 				order:2;
 				display: flex;
 				flex-direction:column;
 
 				.places-season__title{
-				
+					font-size: 30px;
 				}
 
 				.places-season__list{
 					
+
 					.places-season__item{
-					
+						font-size: 16px;
+					}
+					.places-season__item--summer:before{
+						width: 20px;
+						height: 20px;
+					}
+
+					.places-season__item--winter:before{
+						width: 20px;
+						height: 20px;
+					}
+				
+					.places-season__item--spring:before{
+						width: 20px;
+						height: 20px;
+					}
+
+					.places-season__item--autumn:before{
+						width: 20px;
+						height: 20px;
 					}
 				}
 
-				.places-season__text{order: 3;}
+				.places-season__text{
+					order: 3;
+					font-size: 16px;
+					line-height: 30px;
+					padding-top: 54px;
+				}
 			}
 		}
 	}

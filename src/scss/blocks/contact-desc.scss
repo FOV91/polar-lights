@@ -24,7 +24,7 @@
 			padding-bottom: 25%;
 
 			.contact-desc__item{
-				width: 49%;
+				width: $col6;
 				padding-top: 10%;
 
 				.contact-desc__region{
@@ -53,29 +53,44 @@
 			width: 768px;
 			margin: 0 auto;
 			margin-top: 0;
+			padding: 1%;
 			padding-top: 5%;
 			padding-bottom: 0;	
+			font-size: 20px;
+			
 		}
 		&__inner{
 			width: 768px;
 			display: flex;
 			flex-wrap:wrap;
+			padding: 1%;
 			padding-bottom: 10%;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
 
 			.contact-desc__item{
-				width: 25%;
-				
+				width: $col3;
+				padding-top: 5%;
+
+				.contact-desc__region{
+					font-size: 14px;
+				}
 				.contact-desc__person{
 					display: block;
+					font-size: 12px;
 				}
 				.contact-desc__tel{
 					display: block;
+					font-size: 12px;
 				}
 				.contact-desc__vk{
 					display: block;
+					font-size: 12px;
 				}
 				.contact-desc__link{
 					display: block;	
+					font-size: 12px;
 				}
 			}
 		}
@@ -89,27 +104,42 @@
 			margin-top: 0;
 			padding-top: 5%;
 			padding-bottom: 0;	
+			font-size: 30px;
+			
 		}
 		&__inner{
 			width: 1280px;
 			display: flex;
 			justify-content: space-between;
+			padding: 1%;
 			padding-bottom: 10%;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
 
 			.contact-desc__item{
-				width: 13.33%;
-					
+				width: $col2;
+				padding-top: 5%;
+				font-size: 20px;
+				
+				.contact-desc__region{
+					font-size: 20px;
+				}
 				.contact-desc__person{
 					display: block;
+					font-size: 14px;
 				}
 				.contact-desc__tel{
 					display: block;
+					font-size: 14px;
 				}
 				.contact-desc__vk{
 					display: block;
+					font-size: 14px;
 				}
 				.contact-desc__link{
 					display: block;	
+					font-size: 14px;
 				}
 			}
 		}
@@ -120,7 +150,7 @@
 			font-family: 'Jura', arial;
 			font-size: 30px;
 			color: #fff;
-			
+			font-weight: lighter;
 		}
 
 	&__inner{
@@ -136,6 +166,7 @@
 
 			.contact-desc__region{
 				font-family: 'Jura', arial;
+				font-weight: lighter;
 				font-size: 20px;
 				color: #fff;
 				margin: 0 auto;
