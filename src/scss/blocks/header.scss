@@ -249,7 +249,7 @@
 			padding-top: 5%;
 
 			&__head{
-				font-family: 'Nord Medium';
+				font-family: 'NordMedium', sans-serif;
 				font-size: 50px;
 				padding-left: 1%;
 			}
@@ -291,8 +291,9 @@
 			
 			.social-morefoto{
 				position: absolute;
-				right:-25px;
-			   	bottom: 47%;
+				right:-75px;
+			  bottom: 47%;
+			  text-decoration: none;
 
 				&__link{
 					margin: 0;
@@ -300,6 +301,7 @@
 					color: #e6fffd;
 					font-size: 16px;
 					transform:rotate(-90deg);
+					width: 200px;
 				}
 			}
 		}

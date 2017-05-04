@@ -6,6 +6,9 @@
 		&__inner{
 			width: 320px;
 			padding-left: 1%;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
 
 			.fact-section__title{
 				font-size: 20px;
