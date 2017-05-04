@@ -9,29 +9,34 @@ $(document).ready(function(){
   		
 	});
 
-	$('.multiple-items').slick({
-  	dots: true,
-  	
-		responsive: [
-	    {
-	      breakpoint: 1280,
-	      settings: {
-	        slidesToShow: 2,
-	      }
-	    },
-	    {
-	      breakpoint: 768,
-	      settings: {
-	        slidesToShow: 2,
-	      }
-	    },
-	    {
-	      breakpoint: 320,
-	      settings: {
-	        slidesToShow: 1,
-	      }
-	    }
-  	]
+	$('.responsive').slick({
+  	 	dots: true,
+		  slidesToShow: 2,
+		  slidesToScroll: 1,
+		  responsive: [
+		    {
+		      breakpoint: 1280,
+		      settings: {
+		        slidesToShow: 2,
+		        slidesToScroll: 1,
+		        dots: true
+		      }
+		    },
+		    {
+		      breakpoint: 768,
+		      settings: {
+		        slidesToShow: 2,
+		        slidesToScroll: 1
+		      }
+		    },
+		    {
+		      breakpoint: 320,
+		      settings: {
+		        slidesToShow: 1,
+		        slidesToScroll: 1
+		      }
+		    }
+		  ]
 	});
 
 
