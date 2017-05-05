@@ -8,7 +8,7 @@
 
 	@media (min-width:320px){
 		&__inner{
-			width: 320px;
+			width: 100%;
 			padding: 1%;
 			
 
@@ -79,6 +79,7 @@
 	@media (min-width:768px){
 		&__inner{
 			width: 768px;
+			
 
 			.reviews-section__title{
 			font-size: 20px;
@@ -145,9 +146,9 @@
 	}
 
 
-	@media (min-width:1280px){
+	@media (min-width:1200px){
 		&__inner{
-			width: 1280px;
+			width: 1200px;
 
 			.reviews-section__title{
 			font-size: 30px;
@@ -216,9 +217,12 @@
 
 	&__inner{
 		margin: 0 auto;
-		width: 1280px;
+		width: 1200px;
 		padding: 1%;
 		padding-top: 3%;
+		-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
 
 		.reviews-section__title{
 			margin: 0 auto;

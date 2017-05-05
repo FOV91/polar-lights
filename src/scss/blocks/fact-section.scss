@@ -4,7 +4,7 @@
 
 	@media (min-width:320px){
 		&__inner{
-			width: 320px;
+			width: 100%;
 			padding-left: 1%;
 			-webkit-box-sizing: border-box;
 			-moz-box-sizing: border-box;
@@ -106,9 +106,9 @@
 	}
 
 
-	@media (min-width:1280px){
+	@media (min-width:1200px){
 		&__inner{
-			width: 1278px;
+			width: 1200px;
 
 			.fact-section__title{
 				font-size: 30px;
@@ -157,7 +157,7 @@
 	}
 
 	&__inner{
-		width: 1280px;
+		width: 1200px;
 		margin: 0 auto;
 
 		font-family: 'Jura', arial;

@@ -4,12 +4,13 @@
 
 	@media (min-width:320px){
 		&__inner{
-			width: 320px;
+			width: 100%;
 			flex-direction:column;
 			padding: 1%;
 			-webkit-box-sizing: border-box;
 			-moz-box-sizing: border-box;
 			box-sizing: border-box;
+			padding-bottom: 0;
 
 			.places-season__map{
 				order:2;
@@ -82,7 +83,7 @@
 	@media (min-width:768px){
 		&__inner{
 			width: 768px;
-
+			padding-bottom: 0;
 			flex-direction:row;
 			.places-season__map{
 				order:1;
@@ -92,6 +93,7 @@
 
 			.places-season__info{
 				order:2;
+				padding: 2%;
 				display: flex;
 				flex-direction:column;
 				.places-season__title{
@@ -111,12 +113,12 @@
 	}
 
 
-	@media (min-width:1280px){
+	@media (min-width:1200px){
 		&__inner{
-			width: 1280px;
+			width: 1200px;
 			flex-direction:row;
 			padding: 0;
-
+			padding-bottom: 0;
 			.places-season__map{
 				order:1;
 				height: 550px;
@@ -174,7 +176,7 @@
 
 	&__inner{
 		margin: 0 auto;
-		width: 1280px;
+		width: 1200px;
 		display: flex;
 		
 		

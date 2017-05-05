@@ -6,7 +6,7 @@
 	@media (min-width:320px){
 		background-color: #fff;
 		&__inner{
-			width: 320px;
+			width: 100%;
 			padding: 1%;
 			-webkit-box-sizing: border-box;
 			-moz-box-sizing: border-box;
@@ -99,11 +99,11 @@
 	}
 
 
-	@media (min-width:1280px){
+	@media (min-width:1200px){
 		background-color: #fff;
 
 		&__inner{
-			width: 1280px;
+			width: 1200px;
 			padding: 1%;
 			-webkit-box-sizing: border-box;
 			-moz-box-sizing: border-box;
@@ -149,7 +149,7 @@
 
 	
 	&__inner{
-		width: 1280px;
+		width: 1200px;
 		margin: 0 auto;
 
 		.residence__title{
