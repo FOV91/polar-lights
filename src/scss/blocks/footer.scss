@@ -11,19 +11,21 @@
 		display: -ms-flex;
 		display: -o-flex;
 		display: flex;
-		justify-content: space-around;
+		justify-content: center;
 			
 			
 			.footer__text{
 				position: relative;
 				font-weight: lighter;
 				padding-top: 20px;
+				padding-right: 10px;
 				font-size: 12px;
 				
 			}
 			.footer__link{
 				position: relative;
 				padding-top: 20px;
+				padding-left: 10px;
 				font-size: 12px;
 			}
 		}
@@ -33,7 +35,7 @@
 	@media (min-width:768px){
 		&__inner{
 			width: 768px;
-			padding: 1%;
+			padding: 2%;
 
 			.footer__text{
 				position: absolute;
@@ -55,7 +57,7 @@
 	@media (min-width:1200px){
 		&__inner{
 			width: 1200px;
-			padding: 1%;
+			padding: 2%;
 			
 
 			.footer__text{

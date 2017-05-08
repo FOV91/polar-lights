@@ -166,6 +166,7 @@ gulp.task('clean', function () {
   return del([                                              // стираем
     dirs.build + '/**/*',                                   // все файлы из папки сборки (путь из константы)
     '!' + dirs.build + '/readme.md'                         // кроме readme.md (путь из константы)
+    '!' + dirs.build + '/css/style.css'                     // кроме style.css
   ]);
 });
 

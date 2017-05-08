@@ -18,7 +18,6 @@
 				height: 450px;
 				background-color: #171621;
 				opacity: 0.46;
-				/*z-index: 100;*/
 			}
 
 			.legend-section__info{
@@ -62,14 +61,14 @@
 		}
 		.slick-slide{
 			box-sizing: border-box;
-			padding-left: 1%;
-			padding-top: 1%;
-			padding-right: 1%; 
+			padding-left: 1.4%;
+			padding-top: 0;
+			padding-right: 1.3%; 
 			width: 320px;
 		}
 
 		.slick-dots {
-			bottom: -100px;
+			bottom: -70px;
 			padding-left: 0;
 			margin-left: 0;
 		}

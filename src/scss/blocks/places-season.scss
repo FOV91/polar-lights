@@ -6,7 +6,7 @@
 		&__inner{
 			width: 100%;
 			flex-direction:column;
-			padding: 1%;
+			padding: 2%;
 			-webkit-box-sizing: border-box;
 			-moz-box-sizing: border-box;
 			box-sizing: border-box;
@@ -119,6 +119,7 @@
 			flex-direction:row;
 			padding: 0;
 			padding-bottom: 0;
+			
 			.places-season__map{
 				order:1;
 				height: 550px;
