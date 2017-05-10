@@ -41,7 +41,28 @@
 			.fact-list__item:first-child{
 				padding-right: 70px;
 			}
-		
+
+			.fact-list__item:first-child:after{
+				content: "  ";
+				position: absolute;
+				width: 120px;
+				height: 1px;
+				background-color: #03eaa5;
+				transform: rotate(90deg);
+				left:-73px;
+				top: 70px;
+			}
+			
+			.fact-list__item:last-child:after{
+				content: "  ";
+				position: absolute;
+				width: 100px;
+				height: 1px;
+				background-color: #03eaa5;
+				transform: rotate(90deg);
+				left:-63px;
+				top:-32px;
+			}
 
 			.fact-list__number:before{
 				width: 10px;
@@ -66,16 +87,13 @@
 			 font-size: 20px;
 			}
 		
-			.fact-section__line{
-				display: none;
-				
-			}
 			.fact-section__list{
 				display: grid;
 				grid-template-columns: 1fr 1fr 1fr;
 				padding-left: 0;
 				border-top: 2px solid #03eaa5;
 				padding-bottom: 3%;
+				position: relative;
 
 				.fact-list__item{
 					position: relative;
@@ -101,6 +119,13 @@
 					left:-5px;
 					top: 18px;
 				}	
+				.fact-list__item:first-child:after{
+					display: none;
+				}
+				
+				.fact-list__item:last-child:after{
+					display: none;
+				}
 			}
 		}
 	}
@@ -114,10 +139,6 @@
 				font-size: 30px;
 			}
 		
-			.fact-section__line{
-				display: none;
-				
-			}
 			.fact-section__list{
 				display: grid;
 				grid-template-columns: 1fr 1fr 1fr;
@@ -174,14 +195,6 @@
 			margin-top: 0;
 		}
 		
-		.fact-section__line{
-			border-top: 1px solid #03eaa5;
-			width: 210px;
-			transform: rotate(90deg);
-			position: absolute;
-			top:215px;
-			left:-92px;
-		}
 		.fact-section__list{
 			list-style: none;
 
