@@ -2,10 +2,14 @@
 	overflow: hidden;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-image: url('/img/header-back-1280.jpg');
+	background-image: url("../img/header-back-1280.jpg");
+
 
 	@media (min-width: 320px){
-	
+		/*background-image: url("../img/header-back320.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;*/
+
 		&__inner{
 			width: 100%;
 			
@@ -42,7 +46,7 @@
 
 
 	@media (min-width: 768px){
-		background-image: url("/img/header-back-1280.jpg");
+		background-image: url("../img/header-back-1280.jpg");
 		background-size: cover;
 		background-repeat: no-repeat;
 
@@ -71,7 +75,7 @@
 
 
 	@media (min-width: 1200px){
-		background-image: url("/img/header-back-1280.jpg");
+		background-image: url("../img/header-back-1280.jpg");
 		background-size: cover;
 		background-repeat: no-repeat;
 

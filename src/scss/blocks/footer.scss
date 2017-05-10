@@ -12,6 +12,7 @@
 		display: -o-flex;
 		display: flex;
 		justify-content: center;
+		align-items: center;
 			
 			
 			.footer__text{
@@ -41,14 +42,14 @@
 				position: absolute;
 				right: 26%;
 				font-size: 14px;
-				padding-top: 8px;
+				padding-top: 16px;
 				
 			}
 			.footer__link{
 				position: absolute;
 				right: 6%;
 				font-size: 14px;
-				padding-top: 8px;
+				padding-top: 16px;
 			
 			}
 		}
